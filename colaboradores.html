@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sign.css">
+    
+
+
+</head>
+<body>
+
+<!-- MENU  -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">LBOOKS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">INICIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="biblioteca.html">BIBLIOTECA</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="colaboradores.html">COLABORADORES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="somos.html">¿QUIENES SOMOS?</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <!-- Texto -->
+<div style="text-align:center; margin-top:50px;">
+  <h1>PROPORCIONA TU GRANITO DE ARENA</h1>
+</div>
+
+
+  
+     <!-- INICIO  -->
+     <h1>Subir Reseña de Libro</h1>
+     <form id="upload-form" action="sign.php" method="post" enctype="multipart/form-data">
+         <label for="titulo">Título y autor:</label>
+         <input type="text" name="titulo" required>
+ 
+         <label for="autor">Reseña:</label>
+         <input type="text" name="autor" required>
+ 
+         <label for="imagen">Imagen de Portada:</label>
+         <input type="file" name="imagen" accept="image/*" required>
+ 
+         <input type="submit" value="Subir">
+     </form>
+     <div id="message"></div>
+
+         <script src="sign.js"></script>
+ 
+
+
+
+
+    
+</body>
+</html>

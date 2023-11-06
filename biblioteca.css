@@ -1,0 +1,107 @@
+
+
+      /* Estilos CSS para las tarjetas y los botones de filtro */
+      .container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+      }
+
+      .card {
+          width: calc(25% - 20px); /* Ancho del 25% para 4 columnas con margen de 20px */
+          background-color: #f5f5f5;
+          border-radius: 5px;
+          padding: 20px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          margin-bottom: 20px;
+      }
+
+      .card img {
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+          margin-bottom: 10px;
+      }
+
+      .filter-buttons {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 20px;
+      }
+
+      .filter-button {
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          padding: 5px 10px;
+          cursor: pointer;
+      }
+
+      .filter-button:hover {
+          background-color: #0056b3;
+      }
+
+
+
+      /* NAV PAGINA*/
+
+
+.navbar-brand {
+    font-weight: bold;
+  }
+  .nav-link {
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    color: #007bff !important;
+  }
+  .dropdown-menu {
+    animation: fadeIn 0.5s ease-in-out;
+    transform-origin: top;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+  
+      /*PIE DE PAGINA*/
+      footer {
+        background-color: #f8f9fa;
+        padding: 50px 0;
+        margin-top: 50px;
+      }
+      
+      footer h4 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      
+      footer p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      
+      footer ul li a {
+        color: #666;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+      
+      footer ul li a:hover {
+        color: #000;
+      }
+
+          

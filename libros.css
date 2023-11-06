@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.libro-info {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+img {
+  width: 250px; /* Ancho deseado */
+  height: auto; /* Mantener la proporción de aspecto */
+
+}
+
+ /*PIE DE PAGINA*/
+ footer {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    margin-top: 50px;
+  }
+  
+  footer h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #666;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  footer ul li a:hover {
+    color: #000;
+  }
+
+      /* NAV PAGINA*/
+
+
+.navbar-brand {
+  font-weight: bold;
+}
+.nav-link {
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #007bff !important;
+}
+.dropdown-menu {
+  animation: fadeIn 0.5s ease-in-out;
+  transform-origin: top;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

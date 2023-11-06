@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+ /* NAV PAGINA*/
+
+
+ .navbar-brand {
+    font-weight: bold;
+  }
+  .nav-link {
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    color: #007bff !important;
+  }
+  .dropdown-menu {
+    animation: fadeIn 0.5s ease-in-out;
+    transform-origin: top;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  
+
+
+      
